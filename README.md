@@ -6,7 +6,7 @@ Meta package which contains the centralized documentation and possible help util
 Our Component Architecture
 --------------------------
 
-
+![Component Architecture](//raw.githubusercontent.com/sendanor/nor-stack/master/docs/Components.png)
 
 Using this package
 ------------------
