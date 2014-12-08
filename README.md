@@ -26,7 +26,7 @@ This is our vision of ideal structure for web actions.
 
 Each step is a processing point in the life cycle of a request. Initiated first 
 at the browser (or client) and going all the way to the database server (if 
-neccessary).
+necessary).
 
 Green boxes are code executed in compatible JavaScript/Browserify/Node.js 
 environment. The proxy might not have support for it but might have 
