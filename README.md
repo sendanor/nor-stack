@@ -17,3 +17,10 @@ This package is published as centarilized [documentation wiki](https://github.co
 
 We might publish CLI tool or other help utilities in the future.
 
+Ideal Web Action Flow Model
+---------------------------
+
+This is our vision of ideal structure for web actions.
+
+![Flow Model](docs/IdealWebAppRequestFlow.png "Web Action Flow Model")
+
