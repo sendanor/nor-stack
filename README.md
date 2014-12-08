@@ -34,6 +34,6 @@ configuration to skip some files (like static files) and pass them directly
 back to the browser.
 
 Each step can register code to be executed in a future step (including in the 
-browser!). If there is no code to be executed, the shortern route will be used 
+browser!). If there is no code to be executed, the shortest route will be used 
 -- which means deeper layers can be skipped and the latency of the request 
 will be significantly reduced.
