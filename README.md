@@ -24,3 +24,16 @@ This is our vision of ideal structure for web actions.
 
 ![Flow Model](docs/IdealWebAppRequestFlow.png "Web Action Flow Model")
 
+Each step is a processing point in the life cycle of a request. Initiated first 
+at the browser (or client) and going all the way to the database server (if 
+neccessary).
+
+Green boxes are code executed in compatible JavaScript/Browserify/Node.js 
+environment. The proxy might not have support for it but might have 
+configuration to skip some files (like static files) and pass them directly 
+back to the browser.
+
+Each step can register code to be executed in a future step (including in the 
+browser!). If there is no code to be executed, the shortern route will be used 
+-- which means deeper layers can be skipped and the latency of the request 
+will be significantly reduced.
