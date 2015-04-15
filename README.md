@@ -37,3 +37,8 @@ Each step can register code to be executed in a future step (including in the
 browser!). If there is no code to be executed, the shortest route will be used 
 -- which means deeper layers can be skipped and the latency of the request 
 will be significantly reduced.
+
+Commercial Support
+------------------
+
+You can buy commercial support from [Sendanor](http://sendanor.com/software).
